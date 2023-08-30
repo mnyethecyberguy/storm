@@ -15,7 +15,7 @@ theme:
   icon:
     logo: fontawesome/solid/cloud-bolt
     repo: fontawesome/brands/github
-  favicon: assets/images/favicon.svg
+  favicon: assets/images/cloud-bolt.svg
   features:
     - content.code.copy
     - navigation.footer
