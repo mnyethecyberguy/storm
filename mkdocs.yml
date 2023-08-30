@@ -13,11 +13,9 @@ copyright: |
 theme:
   name: material
   icon:
-    # logo: material/cloud-braces
     logo: fontawesome/solid/cloud-bolt
     repo: fontawesome/brands/github
-    admonition:
-      cmd: material/keyboard
+  favicon: assets/images/favicon.svg
   features:
     - content.code.copy
     - navigation.footer
@@ -38,6 +36,9 @@ theme:
       toggle:
         icon: material/toggle-switch
       primary: deep orange
+
+extra_css:
+  - assets/css/custom.css
 
 # Plugins
 plugins:

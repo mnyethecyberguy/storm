@@ -1,0 +1,32 @@
+:root {
+  /*keyboard icon for "cmd" admonishment*/
+  --md-admonition-icon--cmd: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>keyboard</title><path d="M19,10H17V8H19M19,13H17V11H19M16,10H14V8H16M16,13H14V11H16M16,17H8V15H16M7,10H5V8H7M7,13H5V11H7M8,11H10V13H8M8,8H10V10H8M11,11H13V13H11M11,8H13V10H11M20,5H4C2.89,5 2,5.89 2,7V17A2,2 0 0,0 4,19H20A2,2 0 0,0 22,17V7C22,5.89 21.1,5 20,5Z" /></svg>');
+}
+
+/* Custom admonishment "cmd" */
+.md-typeset .admonition.cmd,
+.md-typeset details.cmd {
+  border-color: rgb(0, 191, 165);
+}
+
+.md-typeset .cmd > .admonition-title,
+.md-typeset .cmd > summary {
+  background-color: rgba(0, 191, 165, 0.1);
+  border-color: rgb(0, 191, 165);
+}
+
+.md-typeset .cmd > .admonition-title::before,
+.md-typeset .cmd > summary::before {
+  background-color: rgb(0, 191, 165);
+  -webkit-mask-image: var(--md-admonition-icon--cmd);
+          mask-image: var(--md-admonition-icon--cmd);
+}
+
+/* Classic style admonition */
+/*
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-left-width: 4px;
+}
+*/
