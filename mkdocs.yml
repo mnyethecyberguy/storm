@@ -62,6 +62,7 @@ nav:
   - Home: index.md
   - AWS:
     - Delete Default Resources: aws/delete-defaults.md
+    - AWS Cloud Workstation: aws/cloud-workstation.md
     - AWS Console: https://aws.amazon.com/
   - Azure:
     - Delete Default Resources: azure/delete-defaults.md
@@ -77,6 +78,7 @@ nav:
     - blog/index.md
   - Resources:
     - References: resources/references.md
+    - MkDocs Template: resources/mkdocs-template.md
     - SANS Cloud Security: https://www.sans.org/cloud-security
     - Secure Service Configuration in AWS, Azure, and GCP Poster: https://www.sans.org/posters/secure-service-configuration-in-aws-azure-gcp/
   
