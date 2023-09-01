@@ -59,7 +59,9 @@ extra:
 
 # Page tree
 nav:
-  - Home: index.md
+  - Home: https://mnye.io/
+  - Blog:
+    - blog/index.md
   - AWS:
     - Delete Default Resources: aws/delete-defaults.md
     - AWS Cloud Workstation: aws/cloud-workstation.md
@@ -74,8 +76,6 @@ nav:
     - AWS CLI: cli/awscli.md
     - Azure CLI: cli/azcli.md
     - GCP CLI: cli/gcloudcli.md
-  - Blog:
-    - blog/index.md
   - Resources:
     - References: resources/references.md
     - MkDocs Template: resources/mkdocs-template.md
