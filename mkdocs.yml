@@ -62,25 +62,25 @@ nav:
   - Home: https://mnye.io/
   - Blog:
     - blog/index.md
-  - AWS:
-    - Delete Default Resources: aws/delete-defaults.md
-    - AWS Cloud Workstation: aws/cloud-workstation.md
-    - AWS Console: https://aws.amazon.com/
-  - Azure:
-    - Delete Default Resources: azure/delete-defaults.md
-    - Azure Portal: https://portal.azure.com/
-  - GCP:
-    - Delete Default Resources: gcp/delete-defaults.md
-    - GCP Console: https://cloud.google.com/
   - CLI Cheatsheets:
     - AWS CLI: cli/awscli.md
     - Azure CLI: cli/azcli.md
     - GCP CLI: cli/gcloudcli.md
   - Resources:
     - References: resources/references.md
-    - MkDocs Template: resources/mkdocs-template.md
     - SANS Cloud Security: https://www.sans.org/cloud-security
     - Secure Service Configuration in AWS, Azure, and GCP Poster: https://www.sans.org/posters/secure-service-configuration-in-aws-azure-gcp/
+    - MkDocs Template: resources/mkdocs-template.md
+  - AWS: https://aws.amazon.com/
+    #- Delete Default Resources: aws/delete-defaults.md
+    #- AWS Cloud Workstation: aws/cloud-workstation.md
+    #- AWS Console: https://aws.amazon.com/
+  - Azure: https://portal.azure.com/
+    #- Delete Default Resources: azure/delete-defaults.md
+    #- Azure Portal: https://portal.azure.com/
+  - GCP: https://cloud.google.com/
+    #- Delete Default Resources: gcp/delete-defaults.md
+    #- GCP Console: https://cloud.google.com/
   
 
 markdown_extensions: 
