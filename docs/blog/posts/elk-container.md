@@ -17,6 +17,7 @@ These files can be used to create a generic ELK stack using Docker Compose.
 
 - This assumes that you have both `git` and `docker` installed.
 
+<!-- more -->
 ## Building the Containers using Docker Compose
 
 Git clone the repository by running the following commands, one at a time:
