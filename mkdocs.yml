@@ -31,11 +31,11 @@ theme:
     - scheme: slate
       toggle:
         icon: material/toggle-switch-off-outline
-      primary: deep orange
+      primary: indigo
     - scheme: default
       toggle:
         icon: material/toggle-switch
-      primary: deep orange
+      primary: indigo
 
 extra_css:
   - assets/css/custom.css
