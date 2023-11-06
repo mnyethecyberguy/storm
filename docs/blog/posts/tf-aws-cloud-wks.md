@@ -11,7 +11,7 @@ categories:
 
 # Deploy a Desktop on AWS Using Terraform
 
-![image](../../assets/images/tf_aws.png)
+<!-- ![image](../../assets/images/tf_aws.png) -->
 
 This terraform script deploys an Ubuntu Workstation with minimal additional software installed.  It enables SSH and RDP and uses security groups to restrict the administrative access to your current external IP address only to prevent it being wide open to the world.
 

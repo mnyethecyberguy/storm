@@ -24,6 +24,7 @@
 | Description   | URL   |
 | :---          | :---  |
 | Docker CLI Reference | [https://docs.docker.com/engine/reference/commandline/cli/](https://docs.docker.com/engine/reference/commandline/cli/) |
+| Docker Compose CLI Reference | [https://docs.docker.com/engine/reference/commandline/compose/#child-commands](https://docs.docker.com/engine/reference/commandline/compose/#child-commands) |
 
 ## SANS Cloud Security
 
@@ -39,3 +40,11 @@
 | MITRE ATT&CK Enterprise Matrix | [https://attack.mitre.org/matrices/enterprise/](https://attack.mitre.org/matrices/enterprise/) |
 | MITRE ATT&CK Cloud Matrix | [https://attack.mitre.org/matrices/enterprise/cloud/](https://attack.mitre.org/matrices/enterprise/cloud/) |
 | MITRE ATT&CK Navigator | [https://mitre-attack.github.io/attack-navigator/](https://mitre-attack.github.io/attack-navigator/) |
+
+## NIST
+
+| Description   | URL   |
+| :---          | :---  |
+| NIST Cybersecurity Framework (CSF) v1.1 | [https://www.nist.gov/cyberframework](https://www.nist.gov/cyberframework) |
+| NIST SP 800-53 Rev. 5 | [https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) |
+| NIST SP 800-82 Rev. 3 | [https://csrc.nist.gov/pubs/sp/800/82/r3/final](https://csrc.nist.gov/pubs/sp/800/82/r3/final) |

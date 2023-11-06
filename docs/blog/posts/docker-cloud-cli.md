@@ -54,3 +54,4 @@ docker build -t cloud-cli .
 
 https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
 https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
+https://cloud.google.com/sdk/docs/install
