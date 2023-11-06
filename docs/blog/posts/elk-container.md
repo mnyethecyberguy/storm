@@ -6,7 +6,7 @@ authors:
 categories:
   - Docker
   - Containers
-  - SEIM
+  - SIEM
 ---
 
 # Building an ELK Stack with Docker Compose
