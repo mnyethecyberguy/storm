@@ -65,7 +65,7 @@ nav:
   - CLI Cheatsheets:
     - AWS CLI: cli/awscli.md
     - Azure CLI: cli/azcli.md
-    - GCP CLI: cli/gcloudcli.md
+    - Google Cloud CLI: cli/gcloudcli.md
   - Resources:
     - References: resources/references.md
     - SANS Cloud Security: https://www.sans.org/cloud-security
