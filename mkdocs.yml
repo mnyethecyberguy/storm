@@ -74,7 +74,8 @@ nav:
     - References: resources/references.md
     - SANS Cloud Security: https://www.sans.org/cloud-security
     - Secure Service Configuration in AWS, Azure, and GCP Poster: https://www.sans.org/posters/secure-service-configuration-in-aws-azure-gcp/
-    - MkDocs Template: resources/mkdocs-template.md
+    - MITRE ATT&CK Cloud Matrix: https://attack.mitre.org/matrices/enterprise/cloud/
+    #- MkDocs Template: resources/mkdocs-template.md
   - AWS: https://aws.amazon.com/
     #- Delete Default Resources: aws/delete-defaults.md
     #- AWS Cloud Workstation: aws/cloud-workstation.md
@@ -82,7 +83,7 @@ nav:
   - Azure: https://portal.azure.com/
     #- Delete Default Resources: azure/delete-defaults.md
     #- Azure Portal: https://portal.azure.com/
-  - GCP: https://cloud.google.com/
+  - Google Cloud: https://console.cloud.google.com/
     #- Delete Default Resources: gcp/delete-defaults.md
     #- GCP Console: https://cloud.google.com/
   
