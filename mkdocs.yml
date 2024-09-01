@@ -1,4 +1,4 @@
-site_name: Bitwyze Security
+site_name: Bitwyze Cloud Security
 site_url: https://mnyethecyberguy.github.io/storm/
 site_author: Michael Nye
 
@@ -8,14 +8,16 @@ repo_url: https://github.com/mnyethecyberguy/storm
 
 # Copyright
 copyright: |
-  &copy; 2023 <a href="https://mnye.io" target="_blank" rel="noopener">Michael Nye</a>
+  &copy; 2024 <a href="https://mnye.io" target="_blank" rel="noopener">Michael Nye</a>
 
 theme:
   name: material
-  icon:
-    logo: fontawesome/solid/cloud-bolt
-    repo: fontawesome/brands/github
-  favicon: assets/images/cloud-bolt.svg
+  logo: assets/images/bitwyze-logo-white.png
+  # icon:
+    # logo: fontawesome/solid/cloud-bolt
+    # repo: fontawesome/brands/github
+  favicon: assets/images/bitwyze-arrows-1080x1080.png
+  # favicon: assets/images/cloud-bolt.svg
   features:
     - content.code.copy
     - navigation.footer
@@ -96,6 +98,6 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.emoji:
+      # emoji_index: !!python/name:materialx.emoji.twemoji
+      # emoji_generator: !!python/name:materialx.emoji.to_svg
