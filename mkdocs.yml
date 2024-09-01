@@ -69,6 +69,7 @@ nav:
     - Azure CLI: cli/azcli.md
     - Google Cloud CLI: cli/gcloudcli.md
     - Docker CLI: cli/dockercli.md
+    - Git CLI: cli/gitcli.md
   - Resources:
     - References: resources/references.md
     - SANS Cloud Security: https://www.sans.org/cloud-security
