@@ -29,8 +29,9 @@ az --version
 ## Filtering and Querying
 
 
+## Azure Storage 
 
-## Enumerate Storage
+### Enumerate Storage
 
 Enumerate all storage accounts in an account:
 
@@ -50,7 +51,7 @@ Enumerate all objects or blobs in a container:
 az storage blob list --account-name <STORAGE_ACCOUNT_NAME> --container-name <CONTAINER_NAME>
 ```
 
-## Uploading and Downloading Files from Storage
+### Uploading and Downloading Files from Storage
 
 Uploading
 
@@ -62,6 +63,26 @@ Downloading
 
 ```
 az storage blob download --account-name <STORAGE_ACCOUNT_NAME> --container-name <CONTAINER_NAME> --name file.txt --file file.txt
+```
+
+## Azure Key Vaults
+
+List Azure Key Vaults for a specific resource group
+
+```
+az keyvault list --resource-group <RESOURCE_GROUP>
+```
+
+Create a new key vault
+
+```
+az keyvault create --name <KEY_VAULT_NAME> --resource-group <RESOURCE_GROUP> --location <REGION>
+```
+
+Delete a key vault
+
+```
+az keyvault delete --name <KEY_VAULT_NAME> --resource-group <RESOURCE_GROUP>
 ```
 
 ## SSH to a Public Cloud VM
