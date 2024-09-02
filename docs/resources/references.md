@@ -4,6 +4,7 @@
 | :---          | :---  |
 | CLI Installation  | [https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) |
 | CIS Amazon Web Services Benchmarks | [https://www.cisecurity.org/benchmark/amazon_web_services/](https://www.cisecurity.org/benchmark/amazon_web_services/) |
+| AWS Well-Architected Framework | [https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) |
 
 ## Azure
 
@@ -11,6 +12,7 @@
 | :---          | :---  |
 | CLI Installation  | [https://learn.microsoft.com/en-us/cli/azure/install-azure-cli](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) |
 | CIS Microsoft Azure Benchmarks | [https://www.cisecurity.org/benchmark/azure/](https://www.cisecurity.org/benchmark/azure/)
+| Azure Well-Architected Framework | [https://learn.microsoft.com/en-us/azure/well-architected/](https://learn.microsoft.com/en-us/azure/well-architected/) |
 
 ## GCP
 
@@ -46,6 +48,8 @@
 | Description   | URL   |
 | :---          | :---  |
 | NIST Cybersecurity Framework (CSF) v2.0 | [https://www.nist.gov/cyberframework](https://www.nist.gov/cyberframework) |
+| NIST SP 800-207: Zero Trust Architecture | [https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf) |
+| NIST NCCoE Implementing a Zero Trust Architecture | [https://www.nccoe.nist.gov/projects/implementing-zero-trust-architecture](https://www.nccoe.nist.gov/projects/implementing-zero-trust-architecture) |
 | NIST SP 800-53 Rev. 5 | [https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) |
 | NIST SP 800-82 Rev. 3 | [https://csrc.nist.gov/pubs/sp/800/82/r3/final](https://csrc.nist.gov/pubs/sp/800/82/r3/final) |
 
