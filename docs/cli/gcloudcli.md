@@ -1,4 +1,4 @@
-# gcloud CLI
+# Google Cloud CLI
 
 ## Authentication
 
