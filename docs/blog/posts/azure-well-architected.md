@@ -27,7 +27,7 @@ These concepts aren't all-inclusive, but focusing on them can help you build a r
 The Azure Well-Architected Framework consists of five pillars:
 
 | Pillar | Workload Concern | Principles |
-| :--- | :--- |
+| :--- | :--- | :--- |
 | Reliability | Resiliency, availability, recovery | Design for business requirements, resilience, recovery, and operations, while keeping it simple. |
 | Security | Data protection, threat detection, and mitigation | Protect confidentiality, integrity, and availability. |
 | Cost Optimization | Cost modeling, budgets, reduce waste | Optimize on usage and rate utilization while keeping a cost-efficient mindset. |
