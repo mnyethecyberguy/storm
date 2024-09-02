@@ -14,8 +14,8 @@ categories:
 ## Pillars
 
 | Pillar | Workload Concern | Principles |
-| :--- | :--- |
-| Operationalize Excellence | Holistic observability, DevOps practices | Design principles, best practices, and standards. |
+| :--- | :--- | :--- |
+| Operational Excellence | Holistic observability, DevOps practices | Design principles, best practices, and standards. |
 | Security | Data protection, threat detection, and mitigation | Design principles, best practices, and standards. |
 | Reliability | Resiliency, availability, recovery | Design for business requirements, resilience, recovery, and operations, while keeping it simple. |
 | Performance Efficiency | Using cloud resources efficiently to meet performance requirements. | Democratize advanced technology, go global for better experience, use serverless. |
@@ -25,3 +25,4 @@ categories:
 # Additional References
 
 https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
+https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html
