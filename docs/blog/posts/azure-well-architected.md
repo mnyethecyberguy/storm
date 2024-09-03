@@ -122,5 +122,5 @@ When you're building an Azure architecture, there are many considerations to kee
 
 # Additional References
 
-https://learn.microsoft.com/en-us/azure/well-architected/
-https://learn.microsoft.com/en-us/azure/well-architected/pillars
+- https://learn.microsoft.com/en-us/azure/well-architected/
+- https://learn.microsoft.com/en-us/azure/well-architected/pillars

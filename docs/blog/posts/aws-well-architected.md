@@ -24,5 +24,5 @@ categories:
 
 # Additional References
 
-https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
-https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html
+- https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
+- https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html
