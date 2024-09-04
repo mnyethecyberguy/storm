@@ -100,10 +100,10 @@ Design Principles
 
 In addition to each of these pillars, there are some consistent design principles that you should consider throughout your architecture.
 
-- Enable architectural evolution: No architecture is static. Allow for the evolution of your architecture by taking advantage of new services, tools, and technologies when they're available.
-- Use data to make decisions: Collect data, analyze it, and use it to make decisions surrounding your architecture. From cost data, to performance, to user load, using data can guide you to make the right choices in your environment.
-- Educate and enable: Cloud technology evolves quickly. Educate your development, operations, and business teams to help them make the right decisions and build solutions to solve business problems. Document and share configurations, decisions, and best practices within your organization.
-- Automate: Automation of manual activities reduces operational costs, minimizes error introduced by manual steps, and provides consistency between environments.
+- __Enable architectural evolution:__ No architecture is static. Allow for the evolution of your architecture by taking advantage of new services, tools, and technologies when they're available.
+- __Use data to make decisions:__ Collect data, analyze it, and use it to make decisions surrounding your architecture. From cost data, to performance, to user load, using data can guide you to make the right choices in your environment.
+- __Educate and enable:__ Cloud technology evolves quickly. Educate your development, operations, and business teams to help them make the right decisions and build solutions to solve business problems. Document and share configurations, decisions, and best practices within your organization.
+- __Automate:__ Automation of manual activities reduces operational costs, minimizes error introduced by manual steps, and provides consistency between environments.
 
 In an ideal architecture, you'd build the most secure, high-performance, highly available, and efficient environment possible. However, as with everything, there are tradeoffs.
 
