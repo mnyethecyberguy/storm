@@ -74,6 +74,7 @@ nav:
     - Prowler CLI: cli/prowlercli.md
   - Resources:
     - References: resources/references.md
+    - Zero Trust: resources/zero-trust.md
     - SANS Cloud Security: https://www.sans.org/cloud-security
     - Secure Service Configuration in AWS, Azure, and GCP Poster: https://www.sans.org/posters/secure-service-configuration-in-aws-azure-gcp/
     - MITRE ATT&CK Cloud Matrix: https://attack.mitre.org/matrices/enterprise/cloud/
