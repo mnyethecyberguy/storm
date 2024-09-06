@@ -28,7 +28,7 @@ The image also creates and runs under a non-root user.
 
 You can build the image yourself using this Dockerfile or pull from [Docker Hub](https://hub.docker.com/r/mnyethecyberguy/cloud-cli)
 
-```
+``` docker
 docker pull mnyethecyberguy/cloud-cli
 ```
 
@@ -36,17 +36,17 @@ docker pull mnyethecyberguy/cloud-cli
 
 Git clone the repository by running the following commands, one at a time:
 
-```
+``` bash
 git clone https://github.com/mnyethecyberguy/docker-cloud-cli.git
 ```
 and then
 
-```
+``` bash
 cd docker-cloud-cli
 ```
 Build the container
 
-```
+``` docker
 docker build -t cloud-cli .
 ```
 

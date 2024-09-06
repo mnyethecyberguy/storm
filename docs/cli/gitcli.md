@@ -55,6 +55,11 @@ Show changes staged but not yet committed
 git diff --staged
 ```
 
+Delete file from project and stage removal for commit
+```
+git rm <file>
+```
+
 ## Remote Repositories
 List all remote repositories and their URLs
 ```
