@@ -158,6 +158,11 @@ Revert to a previous commit
 git revert <hash>
 ```
 
+Unstage files staged for commit
+```
+git restore --staged <file>
+```
+
 ## Tagging
 Create a lightweight tag
 ```
