@@ -112,9 +112,8 @@ docker container stats
     docker pull <image_name>
     ```
 
-??? docker "General Commands"
-    ## General Commands
-
+??? docker "## General Commands"
+    
     Start the docker daemon
     ```
     docker -d
