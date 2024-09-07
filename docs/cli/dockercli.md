@@ -89,41 +89,43 @@ View resource usage stats
 docker container stats
 ```
 
-## Docker Hub
+??? cmd "Docker Hub"
+    ## Docker Hub
 
-Login into Docker
-```
-docker login -u <username>
-```
+    Login into Docker
+    ```
+    docker login -u <username>
+    ```
 
-Publish an image to Docker Hub
-```
-docker push <username>/<image_name>
-```
+    Publish an image to Docker Hub
+    ```
+    docker push <username>/<image_name>
+    ```
 
-Search Hub for an image
-```
-docker search <image_name>
-```
+    Search Hub for an image
+    ```
+    docker search <image_name>
+    ```
 
-Pull an image from a Docker Hub
-```
-docker pull <image_name>
-```
+    Pull an image from a Docker Hub
+    ```
+    docker pull <image_name>
+    ```
 
-## General Commands
+??? docker "General Commands"
+    ## General Commands
 
-Start the docker daemon
-```
-docker -d
-```
+    Start the docker daemon
+    ```
+    docker -d
+    ```
 
-Get help with Docker. Can also use –help on all subcommands
-```
-docker --help
-```
+    Get help with Docker. Can also use –help on all subcommands
+    ```
+    docker --help
+    ```
 
-Display system-wide information
-```
-docker info
-```
+    Display system-wide information
+    ```
+    docker info
+    ```

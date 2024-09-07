@@ -13,9 +13,7 @@ copyright: |
 theme:
   name: material
   logo: assets/images/bitwyze-logo-white.png
-  # icon:
-    # logo: fontawesome/solid/cloud-bolt
-    # repo: fontawesome/brands/github
+  #icon:
   favicon: assets/images/bitwyze-arrows-1080x1080.png
   # favicon: assets/images/cloud-bolt.svg
   features:
