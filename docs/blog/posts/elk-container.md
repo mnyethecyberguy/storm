@@ -70,7 +70,7 @@ An initial setup container is required as version 8.0+ of Elasticsearch has secu
 
 The `setup` container is started first and will save the generated certificates to the `certs` volume, which makes them accessible to the other containers we are building.  It will also pass variables to the Elasticsearch container for cluster configuration.
 
-``` yml
+``` yaml
 version: "3.8"
 
 services:
@@ -134,7 +134,7 @@ services:
 
 This container builds a single-node Elasticsearch cluster.
 
-``` yml
+``` yaml
   es01:
     depends_on:
       setup:
@@ -182,7 +182,7 @@ This container builds a single-node Elasticsearch cluster.
 
 The Kibana container is dependent upon the Elasticsearch container running in a healthy state, and utilizes the certificates created during setup.
 
-``` yml
+``` yaml
   kibana:
     depends_on:
       es01:
@@ -215,7 +215,7 @@ The Kibana container is dependent upon the Elasticsearch container running in a 
 
 Logstash is the final container to bring online, and has some additional configuration in the `logstash.conf` file.
 
-``` yml
+``` yaml
   logstash01:
     depends_on:
       es01:
