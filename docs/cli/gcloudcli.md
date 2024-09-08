@@ -1,4 +1,4 @@
-# Google Cloud CLI
+# Google Cloud CLI Cheat Sheet
 
 ## Authentication
 

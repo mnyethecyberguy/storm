@@ -63,13 +63,14 @@ nav:
   - Home: https://mnye.io/
   - Blog:
     - blog/index.md
-  - CLI Cheatsheets:
+  - CLI Cheat Sheets:
     - AWS CLI: cli/awscli.md
     - Azure CLI: cli/azcli.md
     - Google Cloud CLI: cli/gcloudcli.md
     - Docker CLI: cli/dockercli.md
     - Git CLI: cli/gitcli.md
     - Prowler CLI: cli/prowlercli.md
+    - jq CLI: cli/jqcli.md
   - Resources:
     - References: resources/references.md
     - Zero Trust: resources/zero-trust.md

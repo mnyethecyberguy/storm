@@ -1,4 +1,4 @@
-# Docker CLI
+# Docker CLI Cheat Sheet
 
 ## Images
 

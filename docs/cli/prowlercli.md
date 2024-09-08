@@ -1,4 +1,4 @@
-# Prowler CLI
+# Prowler CLI Cheat Sheet
 
 ## Prowler with AWS
 

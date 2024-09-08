@@ -1,4 +1,4 @@
-# Git CLI
+# Git CLI Cheat Sheet
 
 ## Configuration
 Configure user name and email

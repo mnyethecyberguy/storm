@@ -1,4 +1,4 @@
-# Azure CLI
+# Azure CLI Cheat Sheet
 
 ## Authentication
 

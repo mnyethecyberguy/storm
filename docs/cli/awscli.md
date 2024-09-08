@@ -1,4 +1,4 @@
-# AWS CLIv2
+# AWS CLIv2 Cheat Sheet
 
 ## Authentication
 
