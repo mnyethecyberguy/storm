@@ -13,9 +13,7 @@ copyright: |
 theme:
   name: material
   logo: assets/images/bitwyze-logo-white.png
-  #icon:
   favicon: assets/images/bitwyze-arrows-1080x1080.png
-  # favicon: assets/images/cloud-bolt.svg
   features:
     - content.code.copy
     - content.code.annotate
@@ -78,7 +76,7 @@ nav:
     - Secure Service Configuration in AWS, Azure, and GCP Poster: https://www.sans.org/posters/secure-service-configuration-in-aws-azure-gcp/
     - MITRE ATT&CK Cloud Matrix: https://attack.mitre.org/matrices/enterprise/cloud/
     #- MkDocs Template: resources/mkdocs-template.md
-  - AWS: https://aws.amazon.com/
+  - AWS: https://console.aws.amazon.com/
     #- Delete Default Resources: aws/delete-defaults.md
     #- AWS Cloud Workstation: aws/cloud-workstation.md
     #- AWS Console: https://aws.amazon.com/
