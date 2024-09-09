@@ -2,6 +2,16 @@
 
 ## Installation
 
+=== "Debian / Ubuntu"
+    
+    ``` bash
+    sudo apt update
+    sudo apt install jq
+    ```
+
+=== "Windows"
+
+    On Windows, you can download the executable from the `jq` website.  You will need to add the executable to your PATH environment variable.
 
 ## General Commands
 
@@ -29,6 +39,8 @@ Output the first element in a JSON file
 ```
 jq .[0] file.json
 ```
+
+## Mapping & Transforming
 
 
 ## Additional References
