@@ -4,74 +4,92 @@
 
 See what options are available for a given provider
 ```
-prowler aws -h
+prowler <provider> --help
 ```
+
+Show Prowler version
+```
+prowler <provider> --version
+```
+
+## Services
 
 List out all supported services in a provider
 ```
-prowler aws --list-services
+prowler <provider> --list-services
+```
+
+Scan specific services only
+```
+prowler <provider> --services <service>
+```
+
+Exclude specific services
+```
+prowler <provider> --excluded-services <service>
+```
+
+## Checks
+
+List available checks for a provider
+```
+prowler <provider> --list-checks
 ```
 
 List checks by cloud provider and by service
 ```
-prowler aws --list-checks -s s3
+prowler <provider> --list-checks -s s3
 ```
 
-Run Prowler with default checks
+Execute specific check(s)
 ```
-prowler
-```
-
-Run a specific group of checks
-```
-prowler -g <group>
+prowler <provider> --checks <check>
 ```
 
-Run a specific check
+Exclude specific check(s)
 ```
-prowler -c <check>
-```
-
-List available checks and groups
-```
-prowler -l
+prowler <provider> --excluded-checks <check>
 ```
 
-Specify output format
+## Categories
+
+List the available categories in the provider
 ```
-prowler -M json
+prowler <provider> --list-categories
 ```
 
-Specify output file
+Execute specific category(s):
 ```
-prowler -o <output_file>
-```
-
-Filter results by a specific string
-```
-prowler -f "<string>"
+prowler  <provider> --categories
 ```
 
-Run a custom check
+## Miscellaneous
+
+Filter findings by status
 ```
-prowler -c <check_id>
+prowler <provider> --status [PASS, FAIL, MANUAL]
 ```
 
-Run a custom group of checks
+Hide the Prowler banner
 ```
-prowler -g <group_name>
+prowler <provider> --no-banner
 ```
 
 ## Prowler with AWS
 
 Specify an AWS region
 ```
-prowler -r us-west-2
+prowler aws -r us-west-2
 ```
 
-Run Prowler across all AWS accounts
+Scan specific services only
 ```
-prowler -A
+prowler aws --services s3 ec2
+```
+
+Execute specific check(s)
+```
+prowler aws --checks s3_bucket_public_access
 ```
 
 ## Prowler with Azure
@@ -85,3 +103,6 @@ prowler aws --help
 prowler azure --help
 prowler gcp --help
 ```
+
+## Additional References
+https://hub.docker.com/r/toniblyx/prowler/tags
