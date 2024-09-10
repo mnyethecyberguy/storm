@@ -12,6 +12,8 @@ categories:
 # Using jq to Process JSON
 
 
+<!-- more -->
+
 ## Additional References
 
 [^1]: https://jqlang.github.io/jq/

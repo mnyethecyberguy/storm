@@ -28,7 +28,7 @@ The image also creates and runs under a non-root user.
 
 You can build the image yourself using this Dockerfile or pull from [Docker Hub](https://hub.docker.com/r/mnyethecyberguy/cloud-cli)
 
-``` docker
+``` console
 docker pull mnyethecyberguy/cloud-cli
 ```
 
@@ -36,22 +36,22 @@ docker pull mnyethecyberguy/cloud-cli
 
 Git clone the repository by running the following commands, one at a time:
 
-``` bash
+``` console
 git clone https://github.com/mnyethecyberguy/docker-cloud-cli.git
 ```
 and then
 
-``` bash
+``` console
 cd docker-cloud-cli
 ```
 Build the container
 
-``` docker
+``` console
 docker build -t cloud-cli .
 ```
 
-# Additional References
+## Additional References
 
-https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
-https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
-https://cloud.google.com/sdk/docs/install
+[^1]: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
+[^2]: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
+[^3]: https://cloud.google.com/sdk/docs/install
