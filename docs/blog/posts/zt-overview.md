@@ -1,6 +1,6 @@
 ---
 #draft: true
-date: 2024-09-010
+date: 2024-09-10
 authors:
   - mnye
 categories:
