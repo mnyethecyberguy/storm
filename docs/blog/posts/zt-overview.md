@@ -33,7 +33,7 @@ Zero Trust is based on the principle of "never trust, always verify", and aims t
 
 These are the tenets from the NIST special publication on Zero Trust Architecture.  These tenets mirror a lot of the key concepts from the definition above: least privilege, per-session, dynamic, strong authentication and authorization, telemetry, etc.  If you have not done so, I would strongly recommend familiarizing yourself with the concepts in this document.
 
-![NIST Logo](nist.png)
+![NIST Logo](docs/assets/images/nist.png)
 
 **NIST SP 800-207 Tenets of Zero Trust:**[^2]
 
