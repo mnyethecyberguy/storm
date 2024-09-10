@@ -33,7 +33,7 @@ Zero Trust is based on the principle of "never trust, always verify", and aims t
 
 These are the tenets from the NIST special publication on Zero Trust Architecture.  These tenets mirror a lot of the key concepts from the definition above: least privilege, per-session, dynamic, strong authentication and authorization, telemetry, etc.  If you have not done so, I would strongly recommend familiarizing yourself with the concepts in this document.
 
-![NIST Logo](assets/images/nist.png)
+![NIST Logo](images/nist.png)
 
 **NIST SP 800-207 Tenets of Zero Trust:**[^2]
 
@@ -51,13 +51,13 @@ These are the tenets from the NIST special publication on Zero Trust Architectur
 
 Most maturity models for Zero Trust are broken down into 5 or 7 pillars, depending on whose model you are looking at.  CISA's model uses these 5 pillars which you can see in the image below.
 
-![CISA ZTMM](/assets/images/zt-cisa-ztmm.png)
+![CISA ZTMM](images/zt-cisa-ztmm.png)
 
 You can see the 5 main pillars here are: identity, Devices, Networks, Applications & Workloads, and Data.  In the CISA model, you will see that Visibility and Analytics, Automation and Orchestration, and Governance are the foundation of the pillars.  Some other models will have these foundational layers pulled up as pillars, but these are the core competencies of Zero Trust and are critical when trying to improve maturity of your Zero Trust Architectures.
 
 ## Zero Trust Architecture
 
-![Zero Trust Architecture Logical Components](/assets/images/zt-arch-logical.png)
+![Zero Trust Architecture Logical Components](images/zt-arch-logical.png)
 
 ## Zero Trust Terminology
 
