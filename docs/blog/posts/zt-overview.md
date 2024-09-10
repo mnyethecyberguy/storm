@@ -57,7 +57,7 @@ You can see the 5 main pillars here are: identity, Devices, Networks, Applicatio
 
 ## Zero Trust Architecture
 
-![Zero Trust Architecture Logical Components](../../images/zt-arch-logical.png) 
+![Zero Trust Architecture Logical Components](../../assets/images/zt-arch-logical.png) 
 
 ## Zero Trust Terminology
 
