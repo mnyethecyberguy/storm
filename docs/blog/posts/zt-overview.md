@@ -57,7 +57,11 @@ You can see the 5 main pillars here are: identity, Devices, Networks, Applicatio
 
 ## Zero Trust Architecture
 
+This is from the NIST Zero Trust Architecture publication.   It illustrates a high-level representation of the logical components of a ZTA.  This diagram also shows the slicing between the control plane and data plane.
+
 ![Zero Trust Architecture Logical Components](../../assets/images/zt-arch-logical.png) 
+
+In this graphic, we see the core components of the Policy Decision Point and Policy Enforcement Point, and then on the left we have supporting components which are really just different data sources or feeds that support the policy engine.
 
 ## Zero Trust Terminology
 
