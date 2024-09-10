@@ -105,4 +105,6 @@ prowler gcp --help
 ```
 
 ## Additional References
-https://hub.docker.com/r/toniblyx/prowler/tags
+
+[^1]: https://github.com/prowler-cloud/prowler
+[^2]: https://hub.docker.com/r/toniblyx/prowler/tags

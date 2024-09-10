@@ -44,5 +44,6 @@ jq .[0] file.json
 
 
 ## Additional References
-https://jqlang.github.io/jq/
-https://github.com/jqlang/jq
+
+[^1]: https://jqlang.github.io/jq/
+[^2]: https://github.com/jqlang/jq
