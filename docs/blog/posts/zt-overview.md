@@ -8,7 +8,7 @@ categories:
   - Security Architecture
 ---
 
-# Demistifying Zero Trust
+# From A to ZTA: Understanding Zero Trust
 
 Attackers have a strategy, they have a plan.  We know what they are going to be doing, we have modeled these behaviors with MITRE ATTACK and the Killchain concept.  But we know how we traditionally have started to design from the outside, trying to keep them out.  This model, Zero Trust, is all about trying to address the adversary that is already on the network, because we know that's what is happening.
 
@@ -57,13 +57,14 @@ You can see the 5 main pillars here are: identity, Devices, Networks, Applicatio
 
 ## Zero Trust Architecture
 
-This is from the NIST Zero Trust Architecture publication.   It illustrates a high-level representation of the logical components of a ZTA.  This diagram also shows the slicing between the control plane and data plane.
+Analyzing the Implementing a Zero Trust Architecture publication by the NIST NCCoE[^4], we see illustrated a high-level representation of the logical components of a ZTA.  This diagram also shows the slicing between the control plane and data plane.
 
 ![Zero Trust Architecture Logical Components](../../assets/images/zt-arch-logical.png) 
 
 In this graphic, we see the core components of the Policy Decision Point and Policy Enforcement Point, and then on the left we have supporting components which are really just different data sources or feeds that support the policy engine.
 
 ## Zero Trust Terminology
+
 
 
 ## Why Zero Trust?
@@ -77,5 +78,6 @@ In this graphic, we see the core components of the Policy Decision Point and Pol
     NIST Special Publication 800-207: Zero Trust Architecture (2020). <https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf>
 [^3]:
     Zero Trust Maturity Model, Version 2.0.  CISA (2023). <https://www.cisa.gov/sites/default/files/2023-04/zero_trust_maturity_model_v2_508.pdf>
-[^4]: 
+[^4]:
+    Implementing a Zero Trust Architecture, NIST NCCoE (2020). <https://www.nccoe.nist.gov/sites/default/files/legacy-files/zta-project-description-final.pdf>
 [^5]: 
