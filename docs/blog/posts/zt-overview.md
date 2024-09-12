@@ -63,9 +63,20 @@ Analyzing the Implementing a Zero Trust Architecture publication by the NIST NCC
 
 In this graphic, we see the core components of the Policy Decision Point and Policy Enforcement Point, and then on the left we have supporting components which are really just different data sources or feeds that support the policy engine.
 
+### Variations of the Abstract Architecture
+
 ## Zero Trust Terminology
 
+Policy Decision Point (PDP)
+: The Policy Engine, which is considered the Policy Decision Point, is responsible for the decision to grant access to a resource for a given subject.
 
+Policy Enforcement Point (PEP)
+: Responsible for enabling, monitoring, and eventually terminating connections between a subject and a resource.
+
+Subject
+Action
+Target
+Condition
 
 ## Why Zero Trust?
 
