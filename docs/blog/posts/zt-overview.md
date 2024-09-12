@@ -53,24 +53,26 @@ Most maturity models for Zero Trust are broken down into 5 or 7 pillars, dependi
 
 ![CISA ZTMM](../../assets/images/zt-cisa-ztmm.png)
 
-You can see the 5 main pillars here are: identity, Devices, Networks, Applications & Workloads, and Data.  In the CISA model, you will see that Visibility and Analytics, Automation and Orchestration, and Governance are the foundation of the pillars.  Some other models will have these foundational layers pulled up as pillars, but these are the core competencies of Zero Trust and are critical when trying to improve maturity of your Zero Trust Architectures.
+The 5 pillars here are: identity, Devices, Networks, Applications & Workloads, and Data.  In the CISA model, you will see that Visibility and Analytics, Automation and Orchestration, and Governance are the foundation of the pillars, or "cross-cutting" the pillars.  Some other models will have these foundational layers pulled up as pillars, but these are the core competencies of Zero Trust and are critical when trying to improve maturity of your Zero Trust Architectures.
 
 ## Zero Trust Architecture
 
-Analyzing the Implementing a Zero Trust Architecture publication by the NIST NCCoE[^4], we see illustrated a high-level representation of the logical components of a ZTA.  This diagram also shows the slicing between the control plane and data plane.
+Analyzing the NIST NCCoE publication Implementing a Zero Trust Architecture[^4], we see a high-level representation of the logical components of a ZTA illustrated.  This diagram also shows the slicing between the control plane and data plane.
 
 ![Zero Trust Architecture Logical Components](../../assets/images/zt-arch-logical.png) 
 
-In this graphic, we see the core components of the Policy Decision Point and Policy Enforcement Point, and then on the left we have supporting components which are really just different data sources or feeds that support the policy engine.
+In this graphic, we also see the core components of the Policy Decision Point and Policy Enforcement Point, and then on the left we have functional components, which are really just different data sources or feeds that support the policy engine.
 
 ### Variations of the Abstract Architecture
 
 ## Zero Trust Terminology
 
-Policy Decision Point (PDP)
+`Policy Decision Point (PDP)`
+
 : The Policy Engine, which is considered the Policy Decision Point, is responsible for the decision to grant access to a resource for a given subject.
 
-Policy Enforcement Point (PEP)
+`Policy Enforcement Point (PEP)`
+
 : Responsible for enabling, monitoring, and eventually terminating connections between a subject and a resource.
 
 Subject
