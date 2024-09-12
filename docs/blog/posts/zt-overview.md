@@ -27,7 +27,7 @@ Forrester defines Zero Trust as:[^1]
 
 This definition as a security model is critical.  Zero Trust is not a product.  Rather it is a paradigm, or a collection of concepts and ideas to minimize uncertainty in a hostile network.  No single product or vendor will make you "Zero Trust" regardless of what their sales team tells you.
 
-Zero Trust is based on the principle of "never trust, always verify", and aims to solve the inherent problems in placing trust in the network.
+Zero Trust is based on the principle of "never trust, always verify", and aims to solve the inherent problems in placing trust in the network.  
 
 ## Core Tenets of Zero Trust
 
@@ -57,11 +57,11 @@ The 5 pillars here are: identity, Devices, Networks, Applications & Workloads, a
 
 ## Zero Trust Architecture
 
-Analyzing the NIST NCCoE publication Implementing a Zero Trust Architecture[^4], we see a high-level representation of the logical components of a ZTA illustrated.  This diagram also shows the slicing between the control plane and data plane.
+Analyzing the NIST NCCoE publication *Implementing a Zero Trust Architecture*[^4], we see a high-level representation of the logical components of a ZTA illustrated.  This diagram also shows the slicing between the control plane and data plane.
 
 ![Zero Trust Architecture Logical Components](../../assets/images/zt-arch-logical.png) 
 
-In this graphic, we also see the core components of the Policy Decision Point and Policy Enforcement Point, and then on the left we have functional components, which are really just different data sources or feeds that support the policy engine.
+In this graphic, we see the core components of the Policy Decision Point and Policy Enforcement Point, and then on the left we have functional components, which are really just different data sources or feeds that support the policy engine.
 
 ### Variations of the Abstract Architecture
 
@@ -75,13 +75,15 @@ In this graphic, we also see the core components of the Policy Decision Point an
 
 : Responsible for enabling, monitoring, and eventually terminating connections between a subject and a resource.
 
+
 Subject
 Action
 Target
 Condition
 
-## Why Zero Trust?
+## Zero Trust Landscape
 
+The products and solutions used to implement Zero Trust will vary based on the needs of your organizaton, your use cases, and data paths.  Users accessing resources in an on-premise datacenter would have a different data path than a service-to-service access architecture.  
 
 ## Additional References
 

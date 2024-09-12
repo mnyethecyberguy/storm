@@ -25,7 +25,6 @@ theme:
     - navigation.top
     - navigation.tracking
     - toc.follow
-    # - toc.integrate
   palette:
     - scheme: slate
       toggle:
@@ -36,6 +35,7 @@ theme:
         icon: material/toggle-switch
       primary: indigo
 
+# Stylesheets
 extra_css:
   - assets/css/custom.css
 
