@@ -20,6 +20,8 @@
 | :---          | :---  |
 | CLI Installation  | [https://cloud.google.com/sdk/docs/install](https://cloud.google.com/sdk/docs/install) |
 | CIS Google Cloud Computing Platform Benchmarks | [https://www.cisecurity.org/benchmark/google_cloud_computing_platform/](https://www.cisecurity.org/benchmark/google_cloud_computing_platform/) |
+| Google Cloud Regions and Zones | [https://cloud.google.com/compute/docs/regions-zones](https://cloud.google.com/compute/docs/regions-zones) |
+| Google Cloud Locations | [https://cloud.google.com/about/locations](https://cloud.google.com/about/locations) |
 
 ## Docker
 

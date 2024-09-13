@@ -6,6 +6,9 @@ authors:
 categories:
   - Zero Trust
   - Security Architecture
+tags:
+  - Zero Trust
+  - Security Architecture
 ---
 
 # From A to ZTA: Understanding Zero Trust
