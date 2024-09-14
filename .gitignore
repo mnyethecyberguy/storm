@@ -1,5 +1,12 @@
 # Desktop files
 .DS_Store
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+Thumbs.db
+desktop.ini
+Desktop.ini
+$RECYCLE.BIN/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
