@@ -22,6 +22,7 @@
 | CIS Google Cloud Computing Platform Benchmarks | [https://www.cisecurity.org/benchmark/google_cloud_computing_platform/](https://www.cisecurity.org/benchmark/google_cloud_computing_platform/) |
 | Google Cloud Regions and Zones | [https://cloud.google.com/compute/docs/regions-zones](https://cloud.google.com/compute/docs/regions-zones) |
 | Google Cloud Locations | [https://cloud.google.com/about/locations](https://cloud.google.com/about/locations) |
+| Google Cloud Roles | [https://cloud.google.com/iam/docs/understanding-roles/](https://cloud.google.com/iam/docs/understanding-roles/) |
 
 ## Docker
 
