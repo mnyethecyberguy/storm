@@ -52,17 +52,43 @@ Downloading
 aws s3 cp s3://<BUCKET_NAME>/file.txt .
 ```
 
-## SSH to a Public Cloud VM
+## Key Management
+
+Activate an access key id for an IAM user
+
+```
+aws iam update-access-key --access-key-id AKIA... --status Active --user-name <user>
+```
+
+Deactivate an access key id for an IAM user
+
+```
+aws iam update-access-key --access-key-id AKIA... --status Inactive --user-name <user>
+```
+
+Delete access key id and secret access key pair
+
+```
+aws iam delete-access-key --access-key-id <access-key-id> --user-name <user>
+```
+
+## Remote Administration
+
+SSH to a Public Cloud VM
 
 ```
 ssh ubuntu@$(aws ec2 describe-instances --filters Name=instance-state-name,Values=running Name=tag-value,Values=<INSTANCE_NAME> --query "Reservations[0].Instances[0].PublicIpAddress" --output text)
 ```
 
-## Encrypt and Decrypt Data
+## Encryption and Decryption
+
+Encrypting data
 
 ```
 aws kms encrypt --key-id <KEY_ARN_OR_ALIAS> --plaintext <TEXT> | jq -r '.CiphertextBlob' | base64 -d > encrypted.txt
 ```
+
+Decrypting data
 
 ```
 aws kms decrypt --key-id <KEY_ARN_OR_ALIAS> --ciphertext-blob fileb://encrypted.txt | jq -r '.Plaintext'
