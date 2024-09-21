@@ -67,12 +67,6 @@ az storage blob download --account-name <STORAGE_ACCOUNT_NAME> --container-name 
 
 ## Azure Key Vaults
 
-List Azure Key Vaults for a specific resource group
-
-```
-az keyvault list --resource-group <RESOURCE_GROUP>
-```
-
 Create a new key vault
 
 ```
@@ -83,6 +77,26 @@ Delete a key vault
 
 ```
 az keyvault delete --name <KEY_VAULT_NAME> --resource-group <RESOURCE_GROUP>
+```
+
+List Azure Key Vaults for a specific resource group
+
+```
+az keyvault list --resource-group <RESOURCE_GROUP>
+```
+
+Show details for a key vault
+
+```
+az keyvault show --name <KEY_VAULT_NAME>
+```
+
+## Resource Groups
+
+Create a resource group
+
+```
+az group create --name <NAME> --location <REGION>
 ```
 
 ## SSH to a Public Cloud VM
