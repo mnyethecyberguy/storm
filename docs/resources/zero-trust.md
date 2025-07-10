@@ -5,6 +5,8 @@
 | Description   | URL   |
 | :---          | :---  |
 | NIST SP 800-207: Zero Trust Architecture | [https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf) |
+| NSTAC Report to the President on Zero Trust and Trusted Identity Management | [https://www.cisa.gov/sites/default/files/publications/NSTAC%20Report%20to%20the%20President%20on%20Zero%20Trust%20and%20Trusted%20Identity%20Management.pdf](https://www.cisa.gov/sites/default/files/publications/NSTAC%20Report%20to%20the%20President%20on%20Zero%20Trust%20and%20Trusted%20Identity%20Management.pdf) |
+| CSA Defining the Zero Trust Protect Surface | [https://cloudsecurityalliance.org/artifacts/defining-the-zero-trust-protect-surface](https://cloudsecurityalliance.org/artifacts/defining-the-zero-trust-protect-surface) |
 | CSA Software-Defined Perimeter (SDP) Specification v2.0 | [https://cloudsecurityalliance.org/artifacts/software-defined-perimeter-zero-trust-specification-v2](https://cloudsecurityalliance.org/artifacts/software-defined-perimeter-zero-trust-specification-v2) |
 | CSA Software-Defined Perimeter (SDP) and Zero Trust | [https://cloudsecurityalliance.org/artifacts/software-defined-perimeter-and-zero-trust](https://cloudsecurityalliance.org/artifacts/software-defined-perimeter-and-zero-trust) |
 | CISA Zero Trust Maturity Model v2 | [https://www.cisa.gov/sites/default/files/2023-04/zero_trust_maturity_model_v2_508.pdf](https://www.cisa.gov/sites/default/files/2023-04/zero_trust_maturity_model_v2_508.pdf) |
