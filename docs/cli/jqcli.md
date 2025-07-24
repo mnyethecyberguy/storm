@@ -11,7 +11,9 @@
 
 === "Windows"
 
-    On Windows, you can download the executable from the `jq` website.  You will need to add the executable to your PATH environment variable.
+    ``` pwsh
+    winget install jqlang.jq
+    ```
 
 ## General Commands
 
