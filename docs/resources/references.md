@@ -4,6 +4,7 @@
 | :---          | :---  |
 | CLI Installation  | [https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) |
 | CIS Amazon Web Services Benchmarks | [https://www.cisecurity.org/benchmark/amazon_web_services/](https://www.cisecurity.org/benchmark/amazon_web_services/) |
+| AWS Foundational Security Best Practices | [https://docs.aws.amazon.com/securityhub/latest/userguide/fsbp-standard.html](https://docs.aws.amazon.com/securityhub/latest/userguide/fsbp-standard.html) |
 | AWS Well-Architected Framework | [https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) |
 
 ## Azure
@@ -12,6 +13,7 @@
 | :---          | :---  |
 | CLI Installation  | [https://learn.microsoft.com/en-us/cli/azure/install-azure-cli](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) |
 | CIS Microsoft Azure Benchmarks | [https://www.cisecurity.org/benchmark/azure/](https://www.cisecurity.org/benchmark/azure/)
+| Microsoft Cloud Security Benchmark | [https://learn.microsoft.com/en-us/security/benchmark/azure/](https://learn.microsoft.com/en-us/security/benchmark/azure/) |
 | Azure Well-Architected Framework | [https://learn.microsoft.com/en-us/azure/well-architected/](https://learn.microsoft.com/en-us/azure/well-architected/) |
 
 ## GCP
