@@ -22,10 +22,10 @@ Before we dive into the commands, lets identify where our code is stored in `git
 ![Git Misconception 1](../../assets/images/git-misconception.png)
 
 There are four main locations where our code lives in `git`:
-- **Local Working Directory** - Where we actively edit files locally
-- **Staging Area** - Temporary holding spot for changes before committing, also known as the index
-- **Local Repository** - Where we store committed changes locally
-- **Remote Repository** - A server like GitHub for sharing and backing up code
+- **Local Working Directory** Where we actively edit files locally
+- **Staging Area** Temporary holding spot for changes before committing, also known as the index
+- **Local Repository** Where we store committed changes locally
+- **Remote Repository** A server like GitHub for sharing and backing up code
 
 ![Git Locations](../../assets/images/git-locations.png)
 
