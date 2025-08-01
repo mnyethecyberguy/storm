@@ -30,10 +30,10 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
       primary: indigo
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch
-      primary: indigo
+    #- scheme: default
+      #toggle:
+        #icon: material/toggle-switch
+      #primary: indigo
 
 # Stylesheets
 extra_css:
