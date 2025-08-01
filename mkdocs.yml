@@ -27,8 +27,8 @@ theme:
     - toc.follow
   palette:
     - scheme: slate
-      toggle:
-        icon: material/toggle-switch-off-outline
+      #toggle:
+        #icon: material/toggle-switch-off-outline
       primary: indigo
     #- scheme: default
       #toggle:
