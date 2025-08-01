@@ -22,6 +22,7 @@ Before we dive into the commands, lets identify where our code is stored in `git
 ![Git Misconception 1](../../assets/images/git-misconception.png)
 
 There are four main locations where our code lives in `git`:
+
 - **Local Working Directory** Where we actively edit files locally
 - **Staging Area** Temporary holding spot for changes before committing, also known as the index
 - **Local Repository** Where we store committed changes locally
@@ -31,6 +32,7 @@ There are four main locations where our code lives in `git`:
 
 # Example Git Flow
 Most `git` commands move files between these four locations
+
 - The first step is `git clone` to clone an existing repo so you have a local version of the project to work on complete with all its history. When you start working with a file, you are working in your local directory where you make changes to your code.
 - Use `git add` when you are ready to commit changes, to stage a snapshot of those files in the staging area.
 - `git commit` takes a snapshot of the staging area and saves it to your local repository. This locks in those staged changes creating a permanent record that you can refer back to like a snapshot in time.
@@ -45,6 +47,7 @@ Collaboration in git is a two way exchange. To integrate your teammates work, yo
 ![Example Git Flow 2](../../assets/images/git-flow-pull.png)
 
 `git pull` combines two commands:
+
 - `git fetch` which grabs the latest updates
 - `git merge` which integrates these updates with your work
 
