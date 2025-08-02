@@ -58,7 +58,7 @@ Because Zero Trust is a strategic approach to cybersecurity, using a maturity mo
 
 CISA's Zero Trust Maturity Model (ZTMM)[^3], which includes five pillars and three cross-cutting capabilities, is based on the foundations of zero trust. Within each pillar, the maturity model provides specific examples of Traditional, Initial, Advanced, and Optimal zero trust architectures.
 
-![CISA ZTMM](../../assets/images/zt-cisa-ztmm.png)
+![CISA ZTMM](../../assets/images/cisa-ztmm-pillars.png)
 
 The 5 pillars here are: Identity, Devices, Networks, Applications & Workloads, and Data.  
 
