@@ -84,7 +84,7 @@ Zero trust architecture (ZTA) is an enterprise’s cybersecurity plan that utili
 
 In the NIST NCCoE publication *Implementing a Zero Trust Architecture*[^4], we see a high-level representation of the logical components of a ZTA illustrated.  It consists of three types of core components: Policy Engine (PE), Policy Administrator (PA), and Policy Enforcement Point (PEP), as well as several supporting components that assist the policy engine in making its decisions by providing data and policy rules related to areas such as identity, credential, and access management (ICAM); endpoint security; security analytics; data security; and resource protection. This diagram also shows the slicing between the control plane and data plane. 
 
-![Zero Trust Architecture Logical Components](../../assets/images/zt-general-architecture.png) 
+![Zero Trust Architecture Logical Components](../../assets/images/zta-general-architecture.png) 
 
 ### Zero Trust Architecture Core Components
 
@@ -110,64 +110,64 @@ ZTA supporting components are integral to other enterprise systems and provide i
 
 - **ICAM**: ICAM components include the strategy, technology, and governance for creating, storing, and managing subject (e.g., enterprise user) accounts and identity records and their access to enterprise resources. Aspects of ICAM include:
 
-  - Identity management
-  - Access and credential management
-  - Federated identity
-  - Identity governance
-  - Multi-factor authentication
+    - Identity management
+    - Access and credential management
+    - Federated identity
+    - Identity governance
+    - Multi-factor authentication
 
 - **Endpoint Security**
 
-  - Endpoint Detection and Response (EDR)/Endpoint Protection Platform (EPP)
+    - Endpoint Detection and Response (EDR)/Endpoint Protection Platform (EPP)
 
-    - Host-based firewall
-    - Malware protection
-    - Vulnerability/threat mitigation
-    - Host intrusion protection
+        - Host-based firewall
+        - Malware protection
+        - Vulnerability/threat mitigation
+        - Host intrusion protection
 
-  - Unified endpoint management (UEM)/mobile device management (MDM)
+    - Unified endpoint management (UEM)/mobile device management (MDM)
 
-    - Endpoint compliance
-    - Application protection
-    - Data protection enforcement
+        - Endpoint compliance
+        - Application protection
+        - Data protection enforcement
   
-  - Continuous diagnostics and mitigation (CDM)
+    - Continuous diagnostics and mitigation (CDM)
 
 - **Data Security**: The data security component includes the policies that an enterprise needs to secure access to enterprise resources, as well as the means to protect data at rest and in transit. Aspects of data security include the following capabilities:
 
-  - Data discovery
-  - Data classification, labeling, and sanitization
-  - Data encryption
-  - Data integrity
-  - Data availability
-  - Data access protection and exfiltration
-  - Auditing and compliance
+    - Data discovery
+    - Data classification, labeling, and sanitization
+    - Data encryption
+    - Data integrity
+    - Data availability
+    - Data access protection and exfiltration
+    - Auditing and compliance
 
 - **Security Analytics**
 
-  - SIEM
-  - SOAR
-  - Vulnerability scanning and assessment
-  - Network discovery
-  - Security controls validation
-  - Identity monitoring
-  - Security monitoring
-  - Application protection and response
-  - Cloud access permission manager
-  - Security analytics and access monitoring
-  - Network monitoring
-  - Traffic inspection
-  - Endpoint monitoring
-  - Threat intelligence
-  - User behavior analytics
-  - Firmware assurance
-  - Centralized management
+    - SIEM
+    - SOAR
+    - Vulnerability scanning and assessment
+    - Network discovery
+    - Security controls validation
+    - Identity monitoring
+    - Security monitoring
+    - Application protection and response
+    - Cloud access permission manager
+    - Security analytics and access monitoring
+    - Network monitoring
+    - Traffic inspection
+    - Endpoint monitoring
+    - Threat intelligence
+    - User behavior analytics
+    - Firmware assurance
+    - Centralized management
 
 - **Resource protection**: This category includes build components that do not fit neatly into one of the four supporting component/PIP categories enumerated above. They include components that are deployed on-premises or in the cloud to serve as proxies for a resource or otherwise protect it through monitoring and control, as well as secure desktops and workstations.
 
-  - Application connector
-  - Cloud workload protection
-  - Cloud security posture management
+    - Application connector
+    - Cloud workload protection
+    - Cloud security posture management
 
 `Policy Information Point (PIP)`
 
