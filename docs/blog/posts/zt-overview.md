@@ -78,11 +78,110 @@ Some other models will have these foundational layers pulled up as pillars, but 
 
 ## Zero Trust Architecture
 
-Analyzing the NIST NCCoE publication *Implementing a Zero Trust Architecture*[^4], we see a high-level representation of the logical components of a ZTA illustrated.  This diagram also shows the slicing between the control plane and data plane.
+Zero trust architecture (ZTA) is an enterprise’s cybersecurity plan that utilizes zero trust concepts and encompasses component relationships, workflow planning, and access policies. ZTA enables secure authorized access to enterprise resources that are distributed across on-premises and multiple cloud environments, while enabling a hybrid workforce and partners to access resources from anywhere, at any time, from any device in support of the organization’s mission.
 
-![Zero Trust Architecture Logical Components](../../assets/images/zt-arch-logical.png) 
+### General ZTA Reference Architecture
 
-In this graphic, we see the core components of the Policy Decision Point and Policy Enforcement Point, and then on the left we have functional components, which are really just different data sources or feeds that support the policy engine.
+In the NIST NCCoE publication *Implementing a Zero Trust Architecture*[^4], we see a high-level representation of the logical components of a ZTA illustrated.  It consists of three types of core components: Policy Engine (PE), Policy Administrator (PA), and Policy Enforcement Point (PEP), as well as several supporting components that assist the policy engine in making its decisions by providing data and policy rules related to areas such as identity, credential, and access management (ICAM); endpoint security; security analytics; data security; and resource protection. This diagram also shows the slicing between the control plane and data plane. 
+
+![Zero Trust Architecture Logical Components](../../assets/images/zt-general-architecture.png) 
+
+### Zero Trust Architecture Core Components
+
+`Policy Engine (PE)`
+
+: The Policy Engine handles the ultimate decision to grant, deny, or revoke access to a resource for a given subject. The PE calculates the trust scores/confidence levels and ultimate access decisions based on enterprise policy and information from supporting components.
+
+`Policy Administrator (PA)`
+
+: The PA executes the PE’s policy decision by sending commands to the PEP to establish and terminate the communications path between the subject and the resource. It generates any session-specific authentication and authorization token or credential used by the subject to access the enterprise resource.
+
+`Policy Enforcement Point (PEP)`
+
+: The PEP guards the trust zone that hosts one or more enterprise resources. It handles enabling, monitoring, and eventually terminating connections between subjects and enterprise resources. It operates based on commands that it receives from the PA.
+
+`Policy Decision Point (PDP)`
+
+: When combined, the functions of the PE and PA comprise a PDP. The PDP is where the decision as to whether or not to permit a subject to access a resource is made. The PIPs provide various types of telemetry and other information needed for the PDP to make informed access decisions. The PEP is the location at which this access decision is enforced.
+
+### Zero Trust Architecture Supporting Components
+
+ZTA supporting components are integral to other enterprise systems and provide information that the PE uses to make to ZTA policy decisions. The sets of information that are collected by the ZTA supporting components and used as input to ZTA policy decisions are referred to as Policy Information Points (PIPs). ZTA supporting components and policy information fall into the following categories:
+
+- **ICAM**: ICAM components include the strategy, technology, and governance for creating, storing, and managing subject (e.g., enterprise user) accounts and identity records and their access to enterprise resources. Aspects of ICAM include:
+
+  - Identity management
+  - Access and credential management
+  - Federated identity
+  - Identity governance
+  - Multi-factor authentication
+
+- **Endpoint Security**
+
+  - Endpoint Detection and Response (EDR)/Endpoint Protection Platform (EPP)
+
+    - Host-based firewall
+    - Malware protection
+    - Vulnerability/threat mitigation
+    - Host intrusion protection
+
+  - Unified endpoint management (UEM)/mobile device management (MDM)
+
+    - Endpoint compliance
+    - Application protection
+    - Data protection enforcement
+  
+  - Continuous diagnostics and mitigation (CDM)
+
+- **Data Security**: The data security component includes the policies that an enterprise needs to secure access to enterprise resources, as well as the means to protect data at rest and in transit. Aspects of data security include the following capabilities:
+
+  - Data discovery
+  - Data classification, labeling, and sanitization
+  - Data encryption
+  - Data integrity
+  - Data availability
+  - Data access protection and exfiltration
+  - Auditing and compliance
+
+- **Security Analytics**
+
+  - SIEM
+  - SOAR
+  - Vulnerability scanning and assessment
+  - Network discovery
+  - Security controls validation
+  - Identity monitoring
+  - Security monitoring
+  - Application protection and response
+  - Cloud access permission manager
+  - Security analytics and access monitoring
+  - Network monitoring
+  - Traffic inspection
+  - Endpoint monitoring
+  - Threat intelligence
+  - User behavior analytics
+  - Firmware assurance
+  - Centralized management
+
+- **Resource protection**: This category includes build components that do not fit neatly into one of the four supporting component/PIP categories enumerated above. They include components that are deployed on-premises or in the cloud to serve as proxies for a resource or otherwise protect it through monitoring and control, as well as secure desktops and workstations.
+
+  - Application connector
+  - Cloud workload protection
+  - Cloud security posture management
+
+`Policy Information Point (PIP)`
+
+: An access control mechanism component that provides telemetry and other information generated by policy or collected by supporting components that the PDP needs for making policy decisions.
+
+`Subject`
+
+: A combination of user, application, service, and device. The thing that is going to be accessing, or requesting access to something else.
+
+`Resource`
+
+: All enterprise assets including data, services, applications, compute resources, virtual and cloud components. The things a subject is trying to access.
+
+
 
 ### Deployed Variations of the Abstract Architecture
 
@@ -93,32 +192,6 @@ In this graphic, we see the core components of the Policy Decision Point and Pol
 ### Resource Portal-Based
 
 ### 
-
-## Zero Trust Terminology
-
-`Policy Decision Point (PDP)`
-
-: The Policy Engine, which is considered the Policy Decision Point, is responsible for the decision to grant access to a resource for a given subject.
-
-`Policy Enforcement Point (PEP)`
-
-: Responsible for enabling, monitoring, and eventually terminating connections between a subject and a resource.
-
-`Policy Information Point (PIP)`
-
-: An access control mechanism component that provides telemetry and other information generated by policy or collected by supporting components that the PDP needs for making policy decisions.
-
-`Subject`
-
-: A combination of user, application, service, and device. The thing that is going to be accessing, or requesting access to something else.
-
-`Action`
-
-: Granting, denying, or revoking access to a resource. This is where the Policy Enforcement Points are actually controlling the access. Allowing, and in some cases brokering, or restricting the access.
-
-`Resource`
-
-: All enterprise assets including data, services, applications, compute resources, virtual and cloud components. The things a subject is trying to access.
 
 ## Zero Trust Landscape
 
@@ -137,8 +210,10 @@ The products and solutions used to implement Zero Trust will vary based on the n
     Zero Trust Maturity Model, Version 2.0.  CISA (2023). <https://www.cisa.gov/sites/default/files/2023-04/zero_trust_maturity_model_v2_508.pdf>
 [^4]:
     Implementing a Zero Trust Architecture, NIST NCCoE (2020). <https://www.nccoe.nist.gov/sites/default/files/legacy-files/zta-project-description-final.pdf>
-[^5]:
-    NSTAC Report to the President on Zero Trust and Trusted Identity Management (2022). <https://www.cisa.gov/sites/default/files/publications/NSTAC%20Report%20to%20the%20President%20on%20Zero%20Trust%20and%20Trusted%20Identity%20Management.pdf>
+[^5]
+    NIST Special Publication 1800-35: Implementing a Zero Trust Architecture (2025). <https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-35.pdf>
 [^6]:
+    NSTAC Report to the President on Zero Trust and Trusted Identity Management (2022). <https://www.cisa.gov/sites/default/files/publications/NSTAC%20Report%20to%20the%20President%20on%20Zero%20Trust%20and%20Trusted%20Identity%20Management.pdf>
+[^7]:
     CSA Defining the Zero Trust Protect Surface (2024). <https://cloudsecurityalliance.org/artifacts/defining-the-zero-trust-protect-surface>
     
