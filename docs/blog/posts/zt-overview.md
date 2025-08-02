@@ -178,13 +178,13 @@ resource access is based on the access privileges granted to the given subject.
 - **Microsegmentation**: This involves placing individual or groups of resources on a unique network segment protected by a gateway security component. In this approach, the enterprise places infrastructure devices such as intelligent switches (or routers) or next generation firewalls (NGFWs) or special purpose gateway devices to act as PEPs protecting each resource or small group of related resources. Alternatively (or additionally), the enterprise may choose to implement host-based micro-segmentation using software agents or firewalls on the endpoint assets.
 - **Software Defined Perimeter**: The last approach uses the network infrastructure to implement a ZTA. This can be achieved by using an overlay network (i.e., layer 7 but also could be set up lower of the OSI network stack). These approaches frequently include concepts from Software Defined Networks (SDN). A common implementation of this includes an agent and resource gateway model that establishes a secure channel used for communication between the client and resource.
 
-# Defining the Zero Trust Protect Surface
+## Defining the Zero Trust Protect Surface
 
 A Protect Surface is the area or portion of an organization’s technology environment that the Zero Trust policy implementation protects. Protect Surfaces consist of Data, Applications, Assets, and Services (DAAS), that is, one or more DAAS elements. Instead of focusing on attack surface, which is an outside in view, this is an inside out view where we start with what we need to protect. Essentially shrinking the attack surface down orders of magnitude to something very small and easily known. 
 
 Sometimes its easy to discover the data elements and assets, but then how do we actually apply the security controls in a way that makes sense to protect what is important? That is where the business information system concept comes in and we can group related elements together. Sometimes there are services that actually service several protect surfaces, e.g. DNS, DHCP, AD, NTP, that can form a protect surface on their own but, we may have an application and a database that go together and they are in their own segment, and they form a business information system.
 
-## 5 Step Process to Implementation
+### 5 Step Process to Implementation
 
 The 5 step process for implementation allows us to eat the elephant one bite at a time.
 
