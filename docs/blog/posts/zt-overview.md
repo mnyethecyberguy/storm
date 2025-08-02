@@ -52,11 +52,29 @@ These are the tenets from the NIST special publication on Zero Trust Architectur
 
 ## Zero Trust Maturity Models
 
-Most maturity models for Zero Trust are broken down into 5 or 7 pillars, depending on whose model you are looking at.  CISA's Zero Trust Maturity Model (ZTMM)[^3] uses these 5 pillars which you can see in the image below.
+Because Zero Trust is a strategic approach to cybersecurity, using a maturity model is a logical and effective way for organizations to assess their progress in adopting and implementing its principles. Maturity models aim to assist in the development of zero trust strategies and implementation plans, guiding resource allocation and prioritization, and promoting continuous improvement. Most maturity models for Zero Trust are broken down into 5 or 7 pillars, depending on whose model you are looking at.  
+
+### CISA's Zero Trust Maturity Model (ZTMMv2)
+
+CISA's Zero Trust Maturity Model (ZTMM)[^3], which includes five pillars and three cross-cutting capabilities, is based on the foundations of zero trust. Within each pillar, the maturity model provides specific examples of Traditional, Initial, Advanced, and Optimal zero trust architectures.
 
 ![CISA ZTMM](../../assets/images/zt-cisa-ztmm.png)
 
-The 5 pillars here are: identity, Devices, Networks, Applications & Workloads, and Data.  In the CISA model, you will see that Visibility and Analytics, Automation and Orchestration, and Governance are the foundation of the pillars, or "cross-cutting" the pillars.  Some other models will have these foundational layers pulled up as pillars, but these are the core competencies of Zero Trust and are critical when trying to improve maturity of your Zero Trust Architectures.
+The 5 pillars here are: Identity, Devices, Networks, Applications & Workloads, and Data.  
+
+- **Identity**: Focusing on user access management, continuous validation, and behavioral analysis.
+- **Devices**: Inventorying, monitoring, and managing the security posture of all devices accessing the network.
+- **Networks**: Securing communication regardless of location, with a focus on microsegmentation and encryption.
+- **Applications and Workloads**: Securing access to and within applications and services, both on-premises and in the cloud.
+- **Data**: Classifying, protecting, and monitoring sensitive data regardless of where it resides.
+
+In the CISA model, you will see that Visibility and Analytics, Automation and Orchestration, and Governance are the foundation of the pillars, or "cross-cutting" capabilities of the pillars.  These capabilities enhance interoperability and effectiveness.
+
+- **Visibility and Analytics**: Gaining insights into network activity, user behavior, and system performance.
+- **Automation and Orchestration**: Automating processes and orchestrating responses to security incidents.
+- **Governance**: Establishing and enforcing policies for Zero Trust implementation and compliance. 
+
+Some other models will have these foundational layers pulled up as pillars, but these are the core competencies of Zero Trust and are critical when trying to improve maturity of your Zero Trust Architectures.
 
 ## Zero Trust Architecture
 
@@ -92,17 +110,15 @@ In this graphic, we see the core components of the Policy Decision Point and Pol
 
 `Subject`
 
-: The thing that is going to be accessing, or requesting access to something else.
+: A combination of user, application, service, and device. The thing that is going to be accessing, or requesting access to something else.
 
 `Action`
 
-: 
+: Granting, denying, or revoking access to a resource. This is where the Policy Enforcement Points are actually controlling the access. Allowing, and in some cases brokering, or restricting the access.
 
-`Target`
+`Resource`
 
-: 
-
-`Condition`
+: All enterprise assets including data, services, applications, compute resources, virtual and cloud components. The things a subject is trying to access.
 
 ## Zero Trust Landscape
 
