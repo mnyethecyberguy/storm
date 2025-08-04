@@ -184,6 +184,17 @@ A Protect Surface[^6] is the area or portion of an organization’s technology e
 
 Sometimes its easy to discover the data elements and assets, but then how do we actually apply the security controls in a way that makes sense to protect what is important? That is where the business information system concept comes in and we can group related elements together. Sometimes there are services that actually service several protect surfaces, e.g. DNS, DHCP, AD, NTP, that can form a protect surface on their own but, we may have an application and a database that go together and they are in their own segment, and they form a business information system.
 
+### Elements Comprising a Protect Surface
+
+DAAS Elements - Data, Applications, Assets, and Services
+
+1. **Data** - The sensitive data that poses the greatest risk if exfiltrated or misused.
+2. **Applications** - The applications that use sensitive data or control critical assets.
+3. **Assets** - The assets of the organization, including IT, OT, and IoT devices.
+4. **Services** - The services and organization most depends on (e.g. DNS, DHCP, NTP, etc.).
+
+A business information system is comprised of one or more DAAS elements. Large business information systems may consist of several smaller subsystems.
+
 ### 5 Step Process to Implementation
 
 The 5 step process for implementation allows us to eat the elephant one bite at a time.
